@@ -1,0 +1,124 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    max-width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, p {
+    text-align: center;
+    color: #333;
+}
+
+textarea, #noteInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+textarea {
+    resize: none;
+    max-height: 60vh;
+    min-height: 100px;
+}
+
+textarea:focus, #noteInput:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+#noteInput {
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#linkDisplay {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-history-header, .link-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.link-history-header {
+    background-color: #e6e6e6;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.link-history-header span, .link-list li a, .link-list li span, .link-list li button {
+    flex: 1;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.link-history-header span:nth-child(2), .link-list li span:nth-child(2) {
+    flex: 2;
+    display: block;
+    width: calc(1ch * 10);
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.link-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-list li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.link-list li a:hover {
+    text-decoration: underline;
+}
+
+.lock-in-button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.expired {
+    color: red;
+}
+
+.disabled {
+    background-color: #ccc !important; 
+    cursor: not-allowed !important;
+    pointer-events: none;
+    opacity: 0.5;
+}
