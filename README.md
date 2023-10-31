@@ -1,0 +1,6 @@
+# ChatPad
+My attempt to create a website that allows for hosting text that will self-destruct after 10 mins, with an extension feature. This is to allow ChatGPT's web search feature to load text files that are too long to paste within the chat itself, such as auditing long code or reading any long documents. 
+
+I am in the process of learning HTML and CSS, and just beginning JS. I utilized ChatGPT in creating the main.js and server.js files, and structured the prompts to ensure that I was learning and retaining what was being done. I believe there is incredible value in utilizing ChatGPT appropriately when learning a new programming language, as long as one understands the limits and possible errors/problems that can occur due to how the LLM parses data, especially after a conversation has become very long. 
+
+There was a lot of back and forth between myself and ChatGPT to build the main javascript and server files. GPT had a difficult time when it came to maintaining current structure and trying to make changes simultaneously. Often, I had to ensure I was careful not to take all suggestions blindly and instead thoroughly review and understand each change. This is what I believe makes this an invaluable tool when it comes to learning. 
